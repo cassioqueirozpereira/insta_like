@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "insta_like",
   "version": "1.0.0",
-  "description": "",
+  "description": "front_end",
   "main": "index.js",
   "type": "module",
   "license": "AGPL-version-3.0",
@@ -17,17 +17,16 @@
   },
   "bugs": "",
   "keywords": [],
-  "author": {
-    "name": "",
-    "email": "",
-    "url": ""
-  },
+  "author": "",
   "contributors": [],
   "scripts": {
-    "dev": "",
+    "dev": "npx parcel --port 8000 index.html",
     "test": ""
   },
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.2"
   }
 }
